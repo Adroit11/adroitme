@@ -4,7 +4,8 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Adoit Adio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" media="screen" href="node_modules/.bin/main.css" />
     <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
     <script src="main.js"></script>
@@ -13,8 +14,30 @@
     <div class="lg:fixed xl:fixed flex sm:block md:block lg:inline-flex xl:flex">
         <!--- Left Main Content To Be Designed Here -->
         <div class="flex-1 bg-image h-screen lg:border-r xl:border-r">
-            <div class="w-full h-16 pt-8 pl-8">
-                <h1 class="text-2xl mb-8 font-semibold leading-tight">Ogundiji Bolade Adio</h1>
+            <div class="w-full h-auto">
+                <div class="w-full h-16 pt-8 pl-8">
+                    <div class="flex mb-4">
+                        <div class="w-1/2 h-12">
+                            <h1 class="text-2xl mb-8 font-semibold leading-tight">Ogundiji Bolade Adio</h1>
+                        </div>
+                        <div class="hamburger w-1/2 h-12 text-right pr-8 md:hidden z-40">
+                            <svg class="mr-8 fill-current text-grey-dark h-8 w-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M16.4 9H3.6c-.552 0-.6.447-.6 1 0 .553.048 1 .6 1h12.8c.552 0 .6-.447.6-1 0-.553-.048-1-.6-1zm0 4H3.6c-.552 0-.6.447-.6 1 0 .553.048 1 .6 1h12.8c.552 0 .6-.447.6-1 0-.553-.048-1-.6-1zM3.6 7h12.8c.552 0 .6-.447.6-1 0-.553-.048-1-.6-1H3.6c-.552 0-.6.447-.6 1 0 .553.048 1 .6 1z"/></svg>
+                            <div class="menu lg:hidden z-50 bg-white border-2 border-grey pl-4 pb-4 pt-4 rounded-b-lg">
+                                    <ul class="list-reset block">
+                                        <li class="mr-6">
+                                            <a class="no-underline text-grey-dark block items-center pt-2 pb-4 border-b border-teal" href="#about">About</a>
+                                        </li>
+                                        <li class="mr-6">
+                                            <a class="no-underline opacity-50 md:text-grey-darker md:opacity-100 block items-center pt-2 pb-4 border-b border-transparent hover:opacity-100 md:hover:border-teal" href="#portfolio">Portfolio</a>
+                                        </li>
+                                        <li class="mr-6">
+                                            <a class="no-underline opacity-50 md:text-grey-dark md:opacity-100 block items-center pt-2 pb-4 border-b border-transparent hover:opacity-100 md:hover:border-teal" href="#contact">Contact</a>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="w-full h-auto p-8">
                     <div class="w-2/5 h-64 mt-8 mb-4 ml-auto mr-auto border-2 border-gray rounded-lg shadow-lg">
                         <img class="w-full h-64 border-2 border-gray shadow-lg rounded-lg" src="http://res.cloudinary.com/dc9kfp5gt/image/upload/c_scale,e_art:incognito,h_340,q_100,w_330/v1519764764/IMG_20180227_214951_697_o3buej.jpg">
@@ -75,21 +98,24 @@
         </div>
         <!-- no-underline text-white opacity-50 md:text-grey-dark md:opacity-100 flex items-center py-4 border-b border-transparent hover:opacity-100 md:hover:border-grey-dark -->
         <!-- Right Content Goes Here -->
-        <div class="flex-1 bg-white h-screen p-8 overflow-auto">
-            <div class="border-b w-full h-12">
-                    <ul class="list-reset flex">
-                        <li class="mr-6">
-                            <a class="no-underline text-grey-dark flex items-center pb-4 border-b border-teal" href="#about">About</a>
-                        </li>
-                        <li class="mr-6">
-                            <a class="no-underline text-white opacity-50 md:text-grey-darker md:opacity-100 flex items-center pb-4 border-b border-transparent hover:opacity-100 md:hover:border-teal" href="#portfolio">Portfolio</a>
-                        </li>
-                        <li class="mr-6">
-                            <a class="no-underline text-white opacity-50 md:text-grey-dark md:opacity-100 flex items-center pb-4 border-b border-transparent hover:opacity-100 md:hover:border-teal" href="#contact">Contact</a>
-                        </li>
-                    </ul>
+        <div class="flex-1 bg-white h-screen overflow-auto">
+            <div class="fixed border-b w-full h-12 ss:hidden p-8 mb-4 block bg-white">
+                    <div class="">
+                        <ul class="list-reset flex">
+                            <li class="mr-6">
+                                <a class="no-underline text-grey-dark flex items-center pb-4 border-b border-teal" href="#about">About</a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="no-underline text-white opacity-50 md:text-grey-darker md:opacity-100 flex items-center pb-4 border-b border-transparent hover:opacity-100 md:hover:border-teal" href="#portfolio">Portfolio</a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="no-underline text-white opacity-50 md:text-grey-dark md:opacity-100 flex items-center pb-4 border-b border-transparent hover:opacity-100 md:hover:border-teal" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
             </div>
-            <div id="about" class="w-full h-auto p-8">
+            <div class="w-full h-6 ss:hidden mt-2"></div>
+            <div id="about" class="w-full h-auto p-8 mt-4">
                 <div class="w-full h-auto border-2 border-grey-light shadow rounded-lg p-4 mb-8">
                     <h2 class="text-base font-semibold leading-tight mb-8 pb-2 border-b">About Me</h2>
                     <div class="w-full h-auto p-8">
@@ -245,5 +271,17 @@
             </div>
         </div>
     </div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $( document ).ready(function() {
+        $( ".menu" ).hide();
+        $( ".hamburger" ).click(function() {
+        $( ".menu" ).slideToggle( "slow", function() {
+        $( ".hamburger" ).show();
+        });
+        });
+
+        });
+    </script>
 </body>
 </html>
