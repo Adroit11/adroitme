@@ -608,9 +608,9 @@
     width: 100%;
   }
   
-  @media (min-width: 576px) {
+  @media (min-width: 350px) {
     .container {
-      max-width: 576px;
+      max-width: 350px;
     }
   }
   
@@ -4509,7 +4509,7 @@
     z-index: auto;
   }
   
-  @media (min-width: 576px) {
+  @media (min-width: 350px) {
     .sm\:list-reset {
       list-style: none;
       padding: 0;
