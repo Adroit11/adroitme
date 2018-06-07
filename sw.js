@@ -3,10 +3,10 @@ self.addEventListener('install', function(event) {
     caches.open('adroitube-v1')
       .then(function(cache) {
         cache.addAll([
-          '/',
-          'index.html',
-          'src/css/main.css',
-          'src/js/app.js',
+          '/adroitme/',
+          '/adroitme/index.html',
+          '/adroitme/src/css/main.css',
+          '/adroitme/src/js/app.js',
         ])
       })
   );
