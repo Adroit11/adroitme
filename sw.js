@@ -28,7 +28,22 @@ var URLS = [                            // Add URL you want to cache in this lis
   '/adroitme/',                     // If you have separate JS/CSS files,
   '/adroitme/index.html',
   '/adroitme/src/css/main.css',
-  '/adroitme/src/js/app.js',            // add path to those files here
+  '/adroitme/src/js/app.js',
+  'http://res.cloudinary.com/dc9kfp5gt/image/upload/c_scale,e_art:incognito,h_340,q_100,w_330/v1519764764/IMG_20180227_214951_697_o3buej.jpg',
+  'http://res.cloudinary.com/dc9kfp5gt/image/upload/q_100/v1528384527/screencapture-localhost-3000-2018-06-05-20_41_26_rbrhy9.png',
+  'http://res.cloudinary.com/dc9kfp5gt/image/upload/q_100/v1528384519/screencapture-localhost-alc-cryptoproject2-2018-05-29-18_01_21_hvewgy.png',
+  'http://res.cloudinary.com/dc9kfp5gt/image/upload/q_100/v1519847220/screencapture-localhost-AdroitCodeEditor-1519847116464_w1fkwy.png',
+  'http://res.cloudinary.com/dc9kfp5gt/image/upload/q_100/v1519841760/IMG_20171221_095641_175_yjf3hk.jpg',
+  'http://res.cloudinary.com/dc9kfp5gt/image/upload/c_scale,h_997,q_100,w_2282/v1519844075/IMG_20180228_195245_856_q2rmgp.jpg',
+  'http://res.cloudinary.com/dc9kfp5gt/image/upload/q_100/v1519844075/IMG_20180228_195206_491_pbfxhk.jpg',
+  'http://res.cloudinary.com/dc9kfp5gt/image/upload/q_100/v1519844075/IMG_20180228_195119_365_h0qqlb.jpg',
+  'cloudinary.com/dc9kfp5gt/image/upload/q_100/v1519844074/IMG_20180228_195319_319_oav1q3.jpg',
+  'http://res.cloudinary.com/dc9kfp5gt/image/upload/q_100/v1519841760/IMG_20171228_080715_466_iiosgv.jpg',
+  'http://res.cloudinary.com/dc9kfp5gt/image/upload/q_100/v1519844074/IMG_20180228_195029_290_zznqvs.jpg',
+  'http://res.cloudinary.com/dc9kfp5gt/image/upload/q_100/v1519841760/IMG_20171025_085240_684_uqhbxq.jpg',
+  'http://res.cloudinary.com/dc9kfp5gt/image/upload/c_scale,h_400,q_100,w_460/v1519840117/Google-Dev-EMEA-Badge_tahpnu.png',
+  'http://res.cloudinary.com/dc9kfp5gt/image/upload/c_scale,h_400,q_100,w_460/v1519835751/DHUUexfXUAAnXn3_ahhhpp.jpg',
+  'http://res.cloudinary.com/dc9kfp5gt/image/upload/q_100/v1520243603/left_bg_1_umblkn.png'    
 ]
 
 // Respond with cached resources
