@@ -28,21 +28,7 @@ var URLS = [                            // Add URL you want to cache in this lis
   '/adroitme/',                     // If you have separate JS/CSS files,
   '/adroitme/index.html',
   '/adroitme/src/css/main.css',
-  '/adroitme/src/js/app.js',
-  '/adroitme/src/img/adroitcode.png',
-  '/adroitme/src/img/adroitube.png',
-  '/adroitme/src/img/buhari.jpg',
-  '/adroitme/src/img/crypto.png',
-  '/adroitme/src/img/fcc.jpg',
-  '/adroitme/src/img/google.png',
-  '/adroitme/src/img/lagos.jpg',
-  '/adroitme/src/img/linux.jpg',
-  '/adroitme/src/img/logo.jpg',
-  '/adroitme/src/img/mac.jpg',
-  '/adroitme/src/img/mypics.jpg',
-  '/adroitme/src/img/panda.jpg',
-  '/adroitme/src/img/pomodo.jpg',
-  '/adroitme/src/img/smile.jpg',   
+  '/adroitme/src/js/app.js',   
 ]
 
 // Respond with cached resources
