@@ -28,10 +28,7 @@ var URLS = [                            // Add URL you want to cache in this lis
   '/adroitme/',                     // If you have separate JS/CSS files,
   '/adroitme/index.html',
   '/adroitme/src/css/main.css',
-  '/adroitme/src/js/app.js',
-  'https://res.cloudinary.com/dc9kfp5gt/image/upload/c_scale,e_art:incognito,h_340,q_100,w_330/v1519764764/IMG_20180227_214951_697_o3buej.jpg',
-  'https://res.cloudinary.com/dc9kfp5gt/image/upload/q_100/v1528384527/screencapture-localhost-3000-2018-06-05-20_41_26_rbrhy9.png',
-  'https://res.cloudinary.com/dc9kfp5gt/image/upload/q_100/v1528384519/screencapture-localhost-alc-cryptoproject2-2018-05-29-18_01_21_hvewgy.png'    
+  '/adroitme/src/js/app.js'   
 ]
 
 // Respond with cached resources
