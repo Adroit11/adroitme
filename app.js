@@ -1,6 +1,6 @@
 if ('serviceWorker' in navigator) {
   console.log('Service worker registration in progress.');
-  navigator.serviceWorker.register('/adroitme/sw.js', {scope: '/adroitme'})
+  navigator.serviceWorker.register('/adroitme/sw.js')
   .then(function() {
     console.log('Service worker registration complete.');
   }, function() {
